@@ -8,27 +8,15 @@ before_install:
 
 install: pip3 install -e .
 
-services:
-  - postgresql
+# services:
+  # - postgresql
 
-env:
-  global:
-  - REPO="clinical-charts"
-  - FILES="output/"
-  - GITHUB_REPO="github.com/linewalks/${REPO}.git"
+# env:
+#   global:
+#   - REPO="clinical-charts"
+#   - FILES="output/"
+#   - GITHUB_REPO="github.com/linewalks/${REPO}.git"
 
 script:
   - flake8 catalog tests
-  - pytest -m base -s tests/
-
-after_success:
-  - git clone https://${GITHUB_TOKEN}@${GITHUB_REPO}
-  - rsync -a -v ${FILES} ${REPO}/stories/mockdata
-  - cd ${REPO}
-  - git remote
-  - git config user.email ${EMAIL}
-  - git config user.name ${USER}
-  - git add stories/mockdata/*
-  - git status
-  - git commit -m "Add mockdata"
-  - git push "https://${GITHUB_TOKEN}@${GITHUB_REPO}" master > /dev/null 2>&1
+  # - pytest -m base -s tests/
