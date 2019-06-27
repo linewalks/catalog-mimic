@@ -1,0 +1,653 @@
+[
+  {
+    "label": "admit",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "emergency"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "disease",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "ischemic_hd"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "icu",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "MICU"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "icu_service",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "MED"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "lab",
+    "times": [
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " INR(PT)"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatine Kinase (CK)"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatine Kinase (CK)"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatine Kinase (CK)"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " INR(PT)"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " INR(PT)"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Troponin T"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " NTproBNP"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Troponin T"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Troponin T"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Bands"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      }
+    ],
+    "visible": true,
+    "display": "circle"
+  },
+  {
+    "label": "prescription",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 3,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "Simvastatin"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  }
+]

@@ -1,0 +1,2338 @@
+{
+  "results": {
+    "nodes": [
+      {
+        "name": "Aspirin, NSAIDs, Statin"
+      },
+      {
+        "name": "NSAIDs, P2Y12 inhibitor, Statin"
+      },
+      {
+        "name": "NSAIDs, P2Y12 inhibitor"
+      },
+      {
+        "name": "P2Y12 inhibitor"
+      },
+      {
+        "name": "Immunosuppressant"
+      },
+      {
+        "name": "NSAIDs, Statin"
+      },
+      {
+        "name": "Aspirin, Immunosuppressant, NSAIDs, P2Y12 inhibitor, Statin"
+      },
+      {
+        "name": "Aspirin, Immunosuppressant, P2Y12 inhibitor"
+      },
+      {
+        "name": "Aspirin, Statin"
+      },
+      {
+        "name": "Aspirin, Immunosuppressant, NSAIDs"
+      },
+      {
+        "name": "Immunosuppressant, NSAIDs, Statin"
+      },
+      {
+        "name": "NSAIDs"
+      },
+      {
+        "name": "Aspirin, P2Y12 inhibitor"
+      },
+      {
+        "name": "Immunosuppressant, P2Y12 inhibitor, Statin"
+      },
+      {
+        "name": "Aspirin, Immunosuppressant, Statin"
+      },
+      {
+        "name": "P2Y12 inhibitor, Statin"
+      },
+      {
+        "name": "Immunosuppressant, P2Y12 inhibitor"
+      },
+      {
+        "name": "Aspirin, Immunosuppressant, NSAIDs, Statin"
+      },
+      {
+        "name": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin"
+      },
+      {
+        "name": "Immunosuppressant, Statin"
+      },
+      {
+        "name": "Aspirin"
+      },
+      {
+        "name": "Aspirin, Immunosuppressant, NSAIDs, P2Y12 inhibitor"
+      },
+      {
+        "name": "Aspirin, Immunosuppressant"
+      },
+      {
+        "name": "Aspirin, NSAIDs, P2Y12 inhibitor"
+      },
+      {
+        "name": "Aspirin, NSAIDs"
+      },
+      {
+        "name": "Immunosuppressant, NSAIDs"
+      },
+      {
+        "name": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin"
+      },
+      {
+        "name": "Immunosuppressant, NSAIDs, P2Y12 inhibitor"
+      },
+      {
+        "name": "Statin"
+      },
+      {
+        "name": "Aspirin, P2Y12 inhibitor, Statin"
+      }
+    ],
+    "links": [
+      {
+        "source": "Aspirin",
+        "target": "Aspirin",
+        "value": 2935
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 66
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, Immunosuppressant, NSAIDs",
+        "value": 2
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, Immunosuppressant, NSAIDs, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 5
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 8
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 29
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, NSAIDs",
+        "value": 195
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 19
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 22
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 197
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 171
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 217
+      },
+      {
+        "source": "Aspirin",
+        "target": "Aspirin, Statin",
+        "value": 1361
+      },
+      {
+        "source": "Aspirin",
+        "target": "Immunosuppressant",
+        "value": 505
+      },
+      {
+        "source": "Aspirin",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 6
+      },
+      {
+        "source": "Aspirin",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 5
+      },
+      {
+        "source": "Aspirin",
+        "target": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 2
+      },
+      {
+        "source": "Aspirin",
+        "target": "Immunosuppressant, Statin",
+        "value": 26
+      },
+      {
+        "source": "Aspirin",
+        "target": "NSAIDs",
+        "value": 596
+      },
+      {
+        "source": "Aspirin",
+        "target": "NSAIDs, P2Y12 inhibitor",
+        "value": 6
+      },
+      {
+        "source": "Aspirin",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 3
+      },
+      {
+        "source": "Aspirin",
+        "target": "NSAIDs, Statin",
+        "value": 60
+      },
+      {
+        "source": "Aspirin",
+        "target": "P2Y12 inhibitor",
+        "value": 293
+      },
+      {
+        "source": "Aspirin",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 69
+      },
+      {
+        "source": "Aspirin",
+        "target": "Statin",
+        "value": 1325
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Aspirin",
+        "value": 57
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 50
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Aspirin, Immunosuppressant, NSAIDs",
+        "value": 4
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 17
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Aspirin, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Aspirin, Statin",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Immunosuppressant",
+        "value": 318
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Immunosuppressant, Statin",
+        "value": 14
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "NSAIDs",
+        "value": 10
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "NSAIDs, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "P2Y12 inhibitor",
+        "value": 4
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 4
+      },
+      {
+        "source": "Aspirin, Immunosuppressant",
+        "target": "Statin",
+        "value": 26
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs",
+        "target": "Aspirin",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs",
+        "target": "Aspirin, Immunosuppressant, NSAIDs",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs",
+        "target": "Immunosuppressant",
+        "value": 8
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs",
+        "target": "NSAIDs",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs",
+        "target": "Statin",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs, Statin",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs, Statin",
+        "target": "Aspirin, Statin",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs, Statin",
+        "target": "Immunosuppressant",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, NSAIDs, Statin",
+        "target": "NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "Immunosuppressant",
+        "value": 46
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "Immunosuppressant, Statin",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "P2Y12 inhibitor",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "target": "Statin",
+        "value": 7
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin",
+        "value": 31
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 7
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 4
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 17
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Statin",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant",
+        "value": 72
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant, Statin",
+        "value": 4
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "NSAIDs",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "NSAIDs, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "P2Y12 inhibitor",
+        "value": 16
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Statin",
+        "value": 16
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Aspirin",
+        "value": 41
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 15
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Aspirin, Immunosuppressant, NSAIDs",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Aspirin, Immunosuppressant, NSAIDs, Statin",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 7
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 48
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Aspirin, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 9
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Aspirin, Statin",
+        "value": 30
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Immunosuppressant",
+        "value": 206
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 6
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 4
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Immunosuppressant, Statin",
+        "value": 17
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "NSAIDs",
+        "value": 14
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "P2Y12 inhibitor",
+        "value": 15
+      },
+      {
+        "source": "Aspirin, Immunosuppressant, Statin",
+        "target": "Statin",
+        "value": 23
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Aspirin",
+        "value": 168
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Aspirin, Immunosuppressant, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Aspirin, Immunosuppressant, NSAIDs, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Aspirin, NSAIDs",
+        "value": 105
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 8
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 10
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 156
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 12
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 17
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Aspirin, Statin",
+        "value": 185
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Immunosuppressant",
+        "value": 9
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "NSAIDs",
+        "value": 153
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "NSAIDs, P2Y12 inhibitor",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "NSAIDs, Statin",
+        "value": 12
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "P2Y12 inhibitor",
+        "value": 33
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 4
+      },
+      {
+        "source": "Aspirin, NSAIDs",
+        "target": "Statin",
+        "value": 63
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin",
+        "value": 10
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 12
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 20
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 4
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 24
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 28
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin, Statin",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "Immunosuppressant",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "NSAIDs",
+        "value": 23
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "NSAIDs, Statin",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "P2Y12 inhibitor",
+        "value": 9
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "target": "Statin",
+        "value": 17
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin",
+        "value": 12
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 18
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 15
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Statin",
+        "value": 4
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant",
+        "value": 4
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "NSAIDs",
+        "value": 39
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "NSAIDs, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "P2Y12 inhibitor",
+        "value": 7
+      },
+      {
+        "source": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Statin",
+        "value": 10
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Aspirin",
+        "value": 52
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Aspirin, Immunosuppressant, NSAIDs, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Aspirin, NSAIDs",
+        "value": 11
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 7
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 126
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 11
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Aspirin, Statin",
+        "value": 116
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Immunosuppressant",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Immunosuppressant, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "NSAIDs",
+        "value": 189
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "NSAIDs, P2Y12 inhibitor",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "NSAIDs, Statin",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "P2Y12 inhibitor",
+        "value": 29
+      },
+      {
+        "source": "Aspirin, NSAIDs, Statin",
+        "target": "Statin",
+        "value": 59
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Aspirin",
+        "value": 193
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs",
+        "value": 5
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 13
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 18
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 7
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 153
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 152
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Aspirin, Statin",
+        "value": 64
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Immunosuppressant",
+        "value": 36
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Immunosuppressant, Statin",
+        "value": 11
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "NSAIDs",
+        "value": 63
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "NSAIDs, P2Y12 inhibitor",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "NSAIDs, Statin",
+        "value": 15
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "P2Y12 inhibitor",
+        "value": 94
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 32
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor",
+        "target": "Statin",
+        "value": 319
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin",
+        "value": 452
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 7
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 3
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 6
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs",
+        "value": 28
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 15
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 22
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 20
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 150
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 402
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Statin",
+        "value": 178
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant",
+        "value": 90
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 7
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "NSAIDs",
+        "value": 128
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "NSAIDs, Statin",
+        "value": 10
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "P2Y12 inhibitor",
+        "value": 230
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 33
+      },
+      {
+        "source": "Aspirin, P2Y12 inhibitor, Statin",
+        "target": "Statin",
+        "value": 364
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Aspirin",
+        "value": 1502
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 18
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Aspirin, Immunosuppressant, NSAIDs, Statin",
+        "value": 1
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 18
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Aspirin, NSAIDs",
+        "value": 189
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 30
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 19
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 204
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 139
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 137
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Aspirin, Statin",
+        "value": 1879
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Immunosuppressant",
+        "value": 272
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 6
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Immunosuppressant, Statin",
+        "value": 10
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "NSAIDs",
+        "value": 494
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "NSAIDs, P2Y12 inhibitor",
+        "value": 15
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 2
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "NSAIDs, Statin",
+        "value": 41
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "P2Y12 inhibitor",
+        "value": 356
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 34
+      },
+      {
+        "source": "Aspirin, Statin",
+        "target": "Statin",
+        "value": 771
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin",
+        "value": 400
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 255
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, Immunosuppressant, NSAIDs",
+        "value": 7
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, Immunosuppressant, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 2
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, Immunosuppressant, NSAIDs, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 35
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 51
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 150
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, NSAIDs",
+        "value": 6
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 23
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 37
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Aspirin, Statin",
+        "value": 147
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Immunosuppressant",
+        "value": 7173
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 23
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Immunosuppressant, NSAIDs, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Immunosuppressant, NSAIDs, Statin",
+        "value": 2
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 16
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 4
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Immunosuppressant, Statin",
+        "value": 144
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "NSAIDs",
+        "value": 122
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "NSAIDs, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "P2Y12 inhibitor",
+        "value": 33
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 12
+      },
+      {
+        "source": "Immunosuppressant",
+        "target": "Statin",
+        "value": 167
+      },
+      {
+        "source": "Immunosuppressant, NSAIDs",
+        "target": "Aspirin",
+        "value": 5
+      },
+      {
+        "source": "Immunosuppressant, NSAIDs",
+        "target": "Aspirin, Immunosuppressant, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, NSAIDs",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 2
+      },
+      {
+        "source": "Immunosuppressant, NSAIDs",
+        "target": "Aspirin, Statin",
+        "value": 3
+      },
+      {
+        "source": "Immunosuppressant, NSAIDs",
+        "target": "Immunosuppressant",
+        "value": 39
+      },
+      {
+        "source": "Immunosuppressant, NSAIDs",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 2
+      },
+      {
+        "source": "Immunosuppressant, NSAIDs",
+        "target": "NSAIDs",
+        "value": 3
+      },
+      {
+        "source": "Immunosuppressant, NSAIDs, P2Y12 inhibitor",
+        "target": "Immunosuppressant",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, NSAIDs, Statin",
+        "target": "Aspirin, Immunosuppressant, NSAIDs, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, NSAIDs, Statin",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, NSAIDs, Statin",
+        "target": "Immunosuppressant, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, NSAIDs, Statin",
+        "target": "NSAIDs, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin",
+        "value": 5
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 2
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 2
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 2
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Aspirin, Statin",
+        "value": 5
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Immunosuppressant",
+        "value": 31
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 3
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "Immunosuppressant, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor",
+        "target": "P2Y12 inhibitor",
+        "value": 4
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin",
+        "value": 3
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant",
+        "value": 9
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "P2Y12 inhibitor",
+        "value": 5
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "target": "Statin",
+        "value": 4
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Aspirin",
+        "value": 39
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 21
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 4
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 3
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 15
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 4
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Aspirin, Statin",
+        "value": 4
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Immunosuppressant",
+        "value": 189
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 4
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Immunosuppressant, NSAIDs, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 3
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Immunosuppressant, Statin",
+        "value": 34
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "NSAIDs",
+        "value": 6
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "P2Y12 inhibitor",
+        "value": 5
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Immunosuppressant, Statin",
+        "target": "Statin",
+        "value": 22
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Aspirin",
+        "value": 396
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 8
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 8
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Aspirin, NSAIDs",
+        "value": 93
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 11
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 21
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 154
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 33
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 76
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Aspirin, Statin",
+        "value": 292
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Immunosuppressant",
+        "value": 118
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 9
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Immunosuppressant, Statin",
+        "value": 7
+      },
+      {
+        "source": "NSAIDs",
+        "target": "NSAIDs",
+        "value": 543
+      },
+      {
+        "source": "NSAIDs",
+        "target": "NSAIDs, P2Y12 inhibitor",
+        "value": 4
+      },
+      {
+        "source": "NSAIDs",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 2
+      },
+      {
+        "source": "NSAIDs",
+        "target": "NSAIDs, Statin",
+        "value": 14
+      },
+      {
+        "source": "NSAIDs",
+        "target": "P2Y12 inhibitor",
+        "value": 25
+      },
+      {
+        "source": "NSAIDs",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 11
+      },
+      {
+        "source": "NSAIDs",
+        "target": "Statin",
+        "value": 138
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin",
+        "value": 3
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 3
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 8
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 2
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 8
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor",
+        "target": "Aspirin, Statin",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor",
+        "target": "Immunosuppressant",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor",
+        "target": "NSAIDs",
+        "value": 5
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor",
+        "target": "P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor",
+        "target": "Statin",
+        "value": 4
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin",
+        "value": 2
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 2
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 2
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Statin",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "NSAIDs",
+        "value": 4
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, P2Y12 inhibitor, Statin",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 2
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "Aspirin",
+        "value": 29
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "Aspirin, NSAIDs",
+        "value": 12
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 12
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 58
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 2
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 11
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "Aspirin, Statin",
+        "value": 48
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "Immunosuppressant",
+        "value": 5
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "Immunosuppressant, Statin",
+        "value": 2
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "NSAIDs",
+        "value": 17
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "NSAIDs, Statin",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "P2Y12 inhibitor",
+        "value": 3
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "NSAIDs, Statin",
+        "target": "Statin",
+        "value": 15
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin",
+        "value": 210
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 7
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 3
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 11
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 5
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs",
+        "value": 7
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 5
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 16
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 8
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 90
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 178
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Aspirin, Statin",
+        "value": 75
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Immunosuppressant",
+        "value": 56
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 5
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Immunosuppressant, Statin",
+        "value": 2
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "NSAIDs",
+        "value": 41
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "NSAIDs, P2Y12 inhibitor",
+        "value": 3
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "NSAIDs, Statin",
+        "value": 6
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "P2Y12 inhibitor",
+        "value": 182
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 21
+      },
+      {
+        "source": "P2Y12 inhibitor",
+        "target": "Statin",
+        "value": 143
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "Aspirin",
+        "value": 84
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 4
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs",
+        "value": 6
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 4
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 1
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 14
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 33
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "Aspirin, Statin",
+        "value": 14
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "Immunosuppressant",
+        "value": 22
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "NSAIDs",
+        "value": 15
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "NSAIDs, P2Y12 inhibitor",
+        "value": 1
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "P2Y12 inhibitor",
+        "value": 39
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 23
+      },
+      {
+        "source": "P2Y12 inhibitor, Statin",
+        "target": "Statin",
+        "value": 38
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin",
+        "value": 1419
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin, Immunosuppressant",
+        "value": 16
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin, Immunosuppressant, NSAIDs",
+        "value": 1
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor",
+        "value": 3
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin, Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 9
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin, Immunosuppressant, Statin",
+        "value": 24
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin, NSAIDs",
+        "value": 98
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor",
+        "value": 11
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin, NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 11
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin, NSAIDs, Statin",
+        "value": 81
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin, P2Y12 inhibitor",
+        "value": 154
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin, P2Y12 inhibitor, Statin",
+        "value": 171
+      },
+      {
+        "source": "Statin",
+        "target": "Aspirin, Statin",
+        "value": 762
+      },
+      {
+        "source": "Statin",
+        "target": "Immunosuppressant",
+        "value": 245
+      },
+      {
+        "source": "Statin",
+        "target": "Immunosuppressant, NSAIDs",
+        "value": 3
+      },
+      {
+        "source": "Statin",
+        "target": "Immunosuppressant, P2Y12 inhibitor",
+        "value": 4
+      },
+      {
+        "source": "Statin",
+        "target": "Immunosuppressant, P2Y12 inhibitor, Statin",
+        "value": 3
+      },
+      {
+        "source": "Statin",
+        "target": "Immunosuppressant, Statin",
+        "value": 25
+      },
+      {
+        "source": "Statin",
+        "target": "NSAIDs",
+        "value": 171
+      },
+      {
+        "source": "Statin",
+        "target": "NSAIDs, P2Y12 inhibitor",
+        "value": 2
+      },
+      {
+        "source": "Statin",
+        "target": "NSAIDs, P2Y12 inhibitor, Statin",
+        "value": 1
+      },
+      {
+        "source": "Statin",
+        "target": "NSAIDs, Statin",
+        "value": 16
+      },
+      {
+        "source": "Statin",
+        "target": "P2Y12 inhibitor",
+        "value": 128
+      },
+      {
+        "source": "Statin",
+        "target": "P2Y12 inhibitor, Statin",
+        "value": 27
+      },
+      {
+        "source": "Statin",
+        "target": "Statin",
+        "value": 883
+      }
+    ]
+  }
+}

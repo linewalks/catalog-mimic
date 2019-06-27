@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "name": "Aspirin",
+      "y": 40.91
+    },
+    {
+      "name": "NSAIDS",
+      "y": 7.48
+    },
+    {
+      "name": "P2Y12 inhibitors",
+      "y": 9.37
+    },
+    {
+      "name": "Statin",
+      "y": 25.96
+    },
+    {
+      "name": "immunosuppressant",
+      "y": 16.29
+    }
+  ]
+}

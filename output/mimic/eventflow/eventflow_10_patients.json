@@ -1,0 +1,394 @@
+{
+  "result": [
+    {
+      "ENTITY_ID": 5205,
+      "TS": "2139-02-03T20:12:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 16112,
+      "TS": "2172-01-12T19:11:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 20745,
+      "TS": "2159-02-08T09:00:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 16112,
+      "TS": "2172-01-12T19:11:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 5205,
+      "TS": "2139-01-19T16:19:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2176-12-28T15:36:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 23503,
+      "TS": "2142-10-03T20:35:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 16112,
+      "TS": "2171-04-16T06:56:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 11147,
+      "TS": "2172-04-30T01:46:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 20133,
+      "TS": "2164-04-12T19:35:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 11147,
+      "TS": "2173-03-26T17:14:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 20133,
+      "TS": "2164-04-24T12:03:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 11147,
+      "TS": "2172-04-30T01:46:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 16112,
+      "TS": "2171-02-27T17:41:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2180-04-25T18:15:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 23503,
+      "TS": "2142-10-03T20:35:00",
+      "EVENT_NAME": "myocardial_inf"
+    },
+    {
+      "ENTITY_ID": 19375,
+      "TS": "2107-02-23T19:06:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 16112,
+      "TS": "2171-04-16T06:56:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 16112,
+      "TS": "2172-04-23T18:52:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 20133,
+      "TS": "2161-11-28T12:23:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 5205,
+      "TS": "2139-01-19T16:19:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 20745,
+      "TS": "2156-01-01T02:27:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 5205,
+      "TS": "2139-02-03T20:12:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 19375,
+      "TS": "2102-03-18T07:52:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 23503,
+      "TS": "2142-09-23T20:46:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 16112,
+      "TS": "2171-02-27T17:41:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 23503,
+      "TS": "2136-09-26T05:18:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2177-02-20T18:45:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 20745,
+      "TS": "2157-03-16T21:33:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2177-02-20T18:45:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 9144,
+      "TS": "2142-03-27T20:09:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2180-05-23T17:45:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 9144,
+      "TS": "2138-01-24T07:15:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 9144,
+      "TS": "2141-12-27T15:17:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 23503,
+      "TS": "2141-03-24T21:05:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 20133,
+      "TS": "2159-05-16T08:00:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 20745,
+      "TS": "2159-02-08T09:00:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 3796,
+      "TS": "2148-06-25T00:27:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 3796,
+      "TS": "2148-07-11T20:02:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 20133,
+      "TS": "2162-10-22T17:42:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 20133,
+      "TS": "2164-04-12T19:35:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 20133,
+      "TS": "2164-04-24T12:03:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 3796,
+      "TS": "2148-07-11T20:02:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 11147,
+      "TS": "2172-04-30T01:46:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 23503,
+      "TS": "2136-09-26T05:18:00",
+      "EVENT_NAME": "myocardial_inf"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2179-05-13T06:27:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 11147,
+      "TS": "2173-03-26T17:14:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2175-08-29T13:15:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 16112,
+      "TS": "2170-05-02T03:40:00",
+      "EVENT_NAME": "myocardial_inf"
+    },
+    {
+      "ENTITY_ID": 3796,
+      "TS": "2148-06-25T00:27:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 20745,
+      "TS": "2157-03-16T21:33:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 23503,
+      "TS": "2142-10-03T20:35:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 23503,
+      "TS": "2142-09-23T20:46:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 9144,
+      "TS": "2142-03-27T20:09:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 19375,
+      "TS": "2103-10-13T16:44:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2180-04-25T18:15:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2176-12-28T15:36:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 20745,
+      "TS": "2156-01-01T02:27:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2176-07-02T23:49:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2175-08-29T13:15:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2179-05-13T06:27:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2180-05-23T17:45:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 9144,
+      "TS": "2141-12-27T15:17:00",
+      "EVENT_NAME": "myocardial_inf"
+    },
+    {
+      "ENTITY_ID": 20133,
+      "TS": "2157-05-26T16:39:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 19375,
+      "TS": "2102-03-18T07:52:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 16112,
+      "TS": "2172-04-23T18:52:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 16112,
+      "TS": "2170-05-02T03:40:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 20133,
+      "TS": "2161-11-28T12:23:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 20133,
+      "TS": "2157-05-26T16:39:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 7695,
+      "TS": "2176-07-02T23:49:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 5205,
+      "TS": "2138-12-03T01:08:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 19375,
+      "TS": "2103-10-13T16:44:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 3796,
+      "TS": "2148-06-25T00:27:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 23503,
+      "TS": "2136-09-26T05:18:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 9144,
+      "TS": "2141-12-27T15:17:00",
+      "EVENT_NAME": "congestive_hf"
+    },
+    {
+      "ENTITY_ID": 23503,
+      "TS": "2141-03-24T21:05:00",
+      "EVENT_NAME": "ischemic_hd"
+    },
+    {
+      "ENTITY_ID": 20133,
+      "TS": "2162-10-22T17:42:00",
+      "EVENT_NAME": "other_cardiomyop"
+    },
+    {
+      "ENTITY_ID": 16112,
+      "TS": "2172-01-12T19:11:00",
+      "EVENT_NAME": "congestive_hf"
+    }
+  ]
+}

@@ -1,0 +1,2034 @@
+[
+  {
+    "label": "admit",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 8,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "elective"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "disease",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "ischemic_hd"
+            ]
+          ]
+        ],
+        "display": "rect"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "ischemic_hd"
+            ]
+          ]
+        ],
+        "display": "rect"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "congestive_hf"
+            ]
+          ]
+        ],
+        "display": "rect"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "congestive_hf"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "icu",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CSRU"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "icu_service",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CSURG"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "lab",
+    "times": [
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pCO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pCO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pCO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pCO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pCO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pCO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pCO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pCO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pCO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pCO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pCO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pCO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " INR(PT)"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " INR(PT)"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 6,
+        "ending_time": 6,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 6,
+        "ending_time": 6,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 6,
+        "ending_time": 6,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 3,
+        "ending_time": 3,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pO2"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 6,
+        "ending_time": 6,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 6,
+        "ending_time": 6,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Fibrinogen, Functional"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 6,
+        "ending_time": 6,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      }
+    ],
+    "visible": true,
+    "display": "circle"
+  },
+  {
+    "label": "prescription",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "Aspirin"
+            ]
+          ]
+        ],
+        "display": "rect"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 9,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "Atorvastatin"
+            ]
+          ]
+        ],
+        "display": "rect"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "Aspirin EC"
+            ]
+          ]
+        ],
+        "display": "rect"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 9,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "Aspirin EC"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "procedure",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CABG"
+            ]
+          ]
+        ],
+        "display": "circle"
+      }
+    ],
+    "visible": true,
+    "display": "circle"
+  }
+]

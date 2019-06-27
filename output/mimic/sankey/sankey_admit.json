@@ -1,0 +1,24 @@
+{
+  "result": {
+    "nodes": [
+      { "name": "emergency" },
+      { "name": "died" },
+      { "name": "elective" },
+      { "name": "urgent" }
+    ],
+    "links": [
+      {"source": "elective", "target": "died", "value": 106},
+      {"source": "elective", "target": "elective", "value": 183},
+      {"source": "elective", "target": "emergency", "value": 821},
+      {"source": "elective", "target": "urgent", "value": 29},
+      {"source": "emergency", "target": "died", "value": 2720},
+      {"source": "emergency", "target": "elective", "value": 558},
+      {"source": "emergency", "target": "emergency", "value": 6249},
+      {"source": "emergency", "target": "urgent", "value": 83},
+      {"source": "urgent", "target": "died", "value": 87},
+      {"source": "urgent", "target": "elective", "value": 35},
+      {"source": "urgent", "target": "emergency", "value": 172},
+      {"source": "urgent", "target": "urgent", "value": 21}
+    ]
+  }
+}

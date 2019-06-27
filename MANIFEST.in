@@ -1,0 +1,6 @@
+include LICENSE
+recursive-include catalog *.py *.sql
+include README.md
+include requirements.txt
+graft tests
+global-exclude *.pyc

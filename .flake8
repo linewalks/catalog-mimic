@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 120
+ignore = E111,E1101,E402
+inline-quotes = "

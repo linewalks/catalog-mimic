@@ -1,0 +1,1394 @@
+[
+  {
+    "label": "admit",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 5,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "emergency"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "disease",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "congestive_hf"
+            ]
+          ]
+        ],
+        "display": "rect"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "congestive_hf"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "icu",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "MICU"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "icu_service",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "MED"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "lab",
+    "times": [
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Albumin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Albumin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Albumin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " INR(PT)"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " INR(PT)"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " INR(PT)"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " INR(PT)"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 3,
+        "ending_time": 3,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 5,
+        "ending_time": 5,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Bilirubin, Total"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Troponin T"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 5,
+        "ending_time": 5,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 3,
+        "ending_time": 3,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Bilirubin, Total"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 3,
+        "ending_time": 3,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Bilirubin, Total"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Bilirubin, Total"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Bilirubin, Total"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Bilirubin, Total"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Bilirubin, Total"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Bilirubin, Total"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " pH"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Blood Gas"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 3,
+        "ending_time": 3,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 5,
+        "ending_time": 5,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 3,
+        "ending_time": 3,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 5,
+        "ending_time": 5,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Alkaline Phosphatase"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Alkaline Phosphatase"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Alkaline Phosphatase"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 3,
+        "ending_time": 3,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Alkaline Phosphatase"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Alkaline Phosphatase"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Alkaline Phosphatase"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 5,
+        "ending_time": 5,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Alkaline Phosphatase"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Alkaline Phosphatase"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 3,
+        "ending_time": 3,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 4,
+        "ending_time": 4,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 3,
+        "ending_time": 3,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 2,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 1,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      }
+    ],
+    "visible": true,
+    "display": "circle"
+  }
+]

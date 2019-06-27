@@ -1,0 +1,237 @@
+[
+  {
+    "label": "admit",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "emergency"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "disease",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "ischemic_hd"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "icu",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CCU"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "icu_service",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 1,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "CMED"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  },
+  {
+    "label": "lab",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Glucose"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Platelet Count"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " White Blood Cells"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Creatinine"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Hematology"
+            ],
+            [
+              "depth_1",
+              " Hemoglobin"
+            ]
+          ]
+        ],
+        "display": "circle"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 0,
+        "tooltip_tables": [
+          [
+            [
+              "depth_0",
+              "Chemistry"
+            ],
+            [
+              "depth_1",
+              " Urea Nitrogen"
+            ]
+          ]
+        ],
+        "display": "circle"
+      }
+    ],
+    "visible": true,
+    "display": "circle"
+  },
+  {
+    "label": "prescription",
+    "times": [
+      {
+        "starting_time": 0,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "Simvastatin"
+            ]
+          ]
+        ],
+        "display": "rect"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "Aspirin EC"
+            ]
+          ]
+        ],
+        "display": "rect"
+      },
+      {
+        "starting_time": 0,
+        "ending_time": 2,
+        "tooltip_tables": [
+          [
+            [
+              "event_name",
+              "Clopidogrel"
+            ]
+          ]
+        ],
+        "display": "rect"
+      }
+    ],
+    "visible": true,
+    "display": "rect"
+  }
+]

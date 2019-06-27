@@ -1,0 +1,808 @@
+{
+    "result": {
+        "nodes": [
+            {
+                "name": "congestive_hf"
+            },
+            {
+                "name": "congestive_hf, ischemic_hd"
+            },
+            {
+                "name": "congestive_hf, ischemic_hd, myocardial_inf"
+            },
+            {
+                "name": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop"
+            },
+            {
+                "name": "congestive_hf, ischemic_hd, other_cardiomyop"
+            },
+            {
+                "name": "congestive_hf, myocardial_inf"
+            },
+            {
+                "name": "congestive_hf, myocardial_inf, other_cardiomyop"
+            },
+            {
+                "name": "congestive_hf, other_cardiomyop"
+            },
+            {
+                "name": "ischemic_hd"
+            },
+            {
+                "name": "ischemic_hd, myocardial_inf"
+            },
+            {
+                "name": "ischemic_hd, myocardial_inf, other_cardiomyop"
+            },
+            {
+                "name": "ischemic_hd, other_cardiomyop"
+            },
+            {
+                "name": "myocardial_inf"
+            },
+            {
+                "name": "myocardial_inf, other_cardiomyop"
+            },
+            {
+                "name": "other_cardiomyop"
+            }
+        ],
+        "links": [
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "ischemic_hd",
+                "value": 63
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 11
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "ischemic_hd",
+                "value": 608
+            },
+            {
+                "source": "congestive_hf, other_cardiomyop",
+                "target": "congestive_hf, other_cardiomyop",
+                "value": 157
+            },
+            {
+                "source": "other_cardiomyop",
+                "target": "congestive_hf",
+                "value": 15
+            },
+            {
+                "source": "other_cardiomyop",
+                "target": "other_cardiomyop",
+                "value": 79
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "congestive_hf",
+                "value": 25
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "ischemic_hd, myocardial_inf",
+                "value": 36
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 179
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 44
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "value": 40
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "ischemic_hd",
+                "value": 143
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "ischemic_hd, myocardial_inf",
+                "value": 63
+            },
+            {
+                "source": "congestive_hf",
+                "target": "congestive_hf",
+                "value": 1042
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "congestive_hf",
+                "value": 283
+            },
+            {
+                "source": "myocardial_inf",
+                "target": "congestive_hf",
+                "value": 18
+            },
+            {
+                "source": "congestive_hf",
+                "target": "ischemic_hd",
+                "value": 60
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf",
+                "value": 3
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf",
+                "value": 111
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "congestive_hf, myocardial_inf",
+                "value": 18
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "ischemic_hd, myocardial_inf",
+                "value": 15
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 154
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 667
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "congestive_hf",
+                "value": 111
+            },
+            {
+                "source": "congestive_hf",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 277
+            },
+            {
+                "source": "myocardial_inf",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf",
+                "value": 5
+            },
+            {
+                "source": "other_cardiomyop",
+                "target": "ischemic_hd, other_cardiomyop",
+                "value": 7
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, myocardial_inf",
+                "value": 3
+            },
+            {
+                "source": "congestive_hf, myocardial_inf",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 48
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "myocardial_inf",
+                "value": 20
+            },
+            {
+                "source": "ischemic_hd, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 11
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "value": 12
+            },
+            {
+                "source": "congestive_hf",
+                "target": "congestive_hf, myocardial_inf",
+                "value": 41
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "value": 11
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "ischemic_hd",
+                "value": 3
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "congestive_hf",
+                "value": 38
+            },
+            {
+                "source": "congestive_hf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 18
+            },
+            {
+                "source": "congestive_hf, myocardial_inf",
+                "target": "congestive_hf",
+                "value": 43
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "myocardial_inf",
+                "target": "ischemic_hd",
+                "value": 34
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, other_cardiomyop",
+                "value": 6
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf",
+                "value": 69
+            },
+            {
+                "source": "congestive_hf",
+                "target": "congestive_hf, other_cardiomyop",
+                "value": 62
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "ischemic_hd, myocardial_inf",
+                "value": 12
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "ischemic_hd",
+                "value": 123
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "value": 38
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "target": "congestive_hf, other_cardiomyop",
+                "value": 21
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "target": "congestive_hf",
+                "value": 18
+            },
+            {
+                "source": "other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 6
+            },
+            {
+                "source": "congestive_hf",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf",
+                "value": 29
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf",
+                "value": 34
+            },
+            {
+                "source": "congestive_hf, other_cardiomyop",
+                "target": "congestive_hf",
+                "value": 49
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "congestive_hf, myocardial_inf",
+                "value": 19
+            },
+            {
+                "source": "ischemic_hd, other_cardiomyop",
+                "target": "congestive_hf",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf",
+                "target": "myocardial_inf",
+                "value": 16
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf",
+                "value": 88
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 55
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "congestive_hf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "myocardial_inf",
+                "value": 4
+            },
+            {
+                "source": "myocardial_inf",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 15
+            },
+            {
+                "source": "congestive_hf",
+                "target": "other_cardiomyop",
+                "value": 10
+            },
+            {
+                "source": "congestive_hf",
+                "target": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "value": 15
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "congestive_hf, other_cardiomyop",
+                "value": 21
+            },
+            {
+                "source": "congestive_hf, myocardial_inf",
+                "target": "ischemic_hd",
+                "value": 14
+            },
+            {
+                "source": "other_cardiomyop",
+                "target": "congestive_hf, other_cardiomyop",
+                "value": 40
+            },
+            {
+                "source": "congestive_hf, myocardial_inf",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf",
+                "value": 26
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "target": "ischemic_hd",
+                "value": 4
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf",
+                "value": 6
+            },
+            {
+                "source": "congestive_hf, myocardial_inf",
+                "target": "congestive_hf, myocardial_inf",
+                "value": 15
+            },
+            {
+                "source": "myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "other_cardiomyop",
+                "target": "ischemic_hd",
+                "value": 2
+            },
+            {
+                "source": "ischemic_hd, other_cardiomyop",
+                "target": "ischemic_hd",
+                "value": 7
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "other_cardiomyop",
+                "value": 3
+            },
+            {
+                "source": "congestive_hf, other_cardiomyop",
+                "target": "other_cardiomyop",
+                "value": 34
+            },
+            {
+                "source": "congestive_hf, myocardial_inf",
+                "target": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "congestive_hf, myocardial_inf",
+                "target": "ischemic_hd, myocardial_inf",
+                "value": 2
+            },
+            {
+                "source": "congestive_hf, other_cardiomyop",
+                "target": "myocardial_inf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "target": "ischemic_hd, other_cardiomyop",
+                "value": 5
+            },
+            {
+                "source": "congestive_hf, myocardial_inf",
+                "target": "myocardial_inf",
+                "value": 6
+            },
+            {
+                "source": "myocardial_inf",
+                "target": "congestive_hf, myocardial_inf",
+                "value": 4
+            },
+            {
+                "source": "congestive_hf",
+                "target": "ischemic_hd, myocardial_inf",
+                "value": 9
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, myocardial_inf",
+                "value": 25
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "myocardial_inf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 2
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "ischemic_hd, other_cardiomyop",
+                "value": 4
+            },
+            {
+                "source": "ischemic_hd, other_cardiomyop",
+                "target": "congestive_hf, other_cardiomyop",
+                "value": 3
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "ischemic_hd, other_cardiomyop",
+                "value": 4
+            },
+            {
+                "source": "ischemic_hd, other_cardiomyop",
+                "target": "ischemic_hd, other_cardiomyop",
+                "value": 12
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "target": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf",
+                "value": 2
+            },
+            {
+                "source": "congestive_hf, other_cardiomyop",
+                "target": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "congestive_hf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "value": 19
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "myocardial_inf",
+                "value": 4
+            },
+            {
+                "source": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd",
+                "value": 4
+            },
+            {
+                "source": "myocardial_inf",
+                "target": "ischemic_hd, myocardial_inf",
+                "value": 9
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, myocardial_inf",
+                "value": 1
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "myocardial_inf",
+                "target": "myocardial_inf",
+                "value": 10
+            },
+            {
+                "source": "congestive_hf, myocardial_inf",
+                "target": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "ischemic_hd, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "myocardial_inf",
+                "target": "ischemic_hd, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, other_cardiomyop",
+                "target": "ischemic_hd",
+                "value": 3
+            },
+            {
+                "source": "congestive_hf, other_cardiomyop",
+                "target": "ischemic_hd, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, myocardial_inf",
+                "target": "other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "other_cardiomyop",
+                "target": "myocardial_inf",
+                "value": 2
+            },
+            {
+                "source": "other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "value": 4
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "value": 4
+            },
+            {
+                "source": "congestive_hf, ischemic_hd",
+                "target": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "value": 4
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "target": "congestive_hf, myocardial_inf",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "target": "other_cardiomyop",
+                "value": 3
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "ischemic_hd, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "ischemic_hd, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "value": 5
+            },
+            {
+                "source": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, myocardial_inf",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "myocardial_inf",
+                "value": 5
+            },
+            {
+                "source": "ischemic_hd, other_cardiomyop",
+                "target": "other_cardiomyop",
+                "value": 3
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "ischemic_hd, myocardial_inf",
+                "value": 1
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "value": 3
+            },
+            {
+                "source": "congestive_hf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf",
+                "value": 4
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf",
+                "target": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "myocardial_inf, other_cardiomyop",
+                "target": "ischemic_hd",
+                "value": 2
+            },
+            {
+                "source": "myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, myocardial_inf",
+                "value": 1
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "target": "other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "myocardial_inf",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "congestive_hf, myocardial_inf",
+                "target": "congestive_hf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "target": "myocardial_inf",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "target": "ischemic_hd, myocardial_inf, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "congestive_hf",
+                "target": "myocardial_inf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "other_cardiomyop",
+                "target": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "ischemic_hd",
+                "target": "ischemic_hd, myocardial_inf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, myocardial_inf, other_cardiomyop",
+                "target": "ischemic_hd",
+                "value": 1
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "myocardial_inf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "myocardial_inf, other_cardiomyop",
+                "target": "ischemic_hd, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf",
+                "target": "myocardial_inf, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "value": 2
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "myocardial_inf",
+                "value": 1
+            },
+            {
+                "source": "ischemic_hd, myocardial_inf, other_cardiomyop",
+                "target": "ischemic_hd, other_cardiomyop",
+                "value": 1
+            },
+            {
+                "source": "congestive_hf, ischemic_hd, other_cardiomyop",
+                "target": "congestive_hf, ischemic_hd, myocardial_inf, other_cardiomyop",
+                "value": 1
+            }
+        ]
+    }
+}
