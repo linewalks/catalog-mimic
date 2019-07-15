@@ -2,7 +2,6 @@
 import pytest
 import json
 import os
-import pandas as pd
 from catalog.base import CuratedData
 from pathlib import Path
 
