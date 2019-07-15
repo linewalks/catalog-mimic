@@ -1,4 +1,4 @@
-from catalog.cardio.model.base import Base
+from catalog.cardio import Base
 from sqlalchemy import Column, String, Integer, DateTime, Numeric
 
 

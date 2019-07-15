@@ -3,7 +3,7 @@ import pytest
 import json
 import os
 import pandas as pd
-from catalog.base import CuratedData, engine
+from catalog.base import CuratedData
 from pathlib import Path
 
 
@@ -33,9 +33,6 @@ class Test_base():
 
   def test_env(self):
     assert os.environ["BAR"] == "bar"
-
-  def test_select(self):
-    assert pd.read_sql("select * from analysis.d_events limit 10", engine).shape[0] > 0
 
   def test_save_json(self):
     test = CuratedData()

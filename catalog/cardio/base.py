@@ -5,7 +5,7 @@ from catalog.cardio.model.cardio_cohort import (CardioAdministration as cadm,
                                                 CardioLabevents as clab,
                                                 CardioPrescription as cpres,
                                                 CardioComorbidity as ccom)
-from catalog.cardio.model.base import Session
+from catalog.cardio import Session
 from sqlalchemy import func, and_, case
 
 session = Session()
