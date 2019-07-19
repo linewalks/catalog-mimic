@@ -292,12 +292,12 @@ from (
             , it.count_of_icustay
             , it.period_of_icustay
      from admission_stat ads
-     join icu_timeline it
+     left join icu_timeline it
      using (subject_id)
      order by ads.subject_id
 ) t1
 ;
--- 18401 rows inserted
+-- 18411 rows inserted
 
 
 /* 주요 검사 이력 추출 */
