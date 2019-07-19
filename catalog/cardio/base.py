@@ -96,23 +96,36 @@ class PatientLabEvents(CuratedData):
   def __init__(self):
     super(PatientLabEvents).__init__()
 
-  def query(self):
-    self.query = session.query(clab.subject_id,
-                               clab.hadm_id,
-                               clab.itemid,
-                               clab.label,
-                               clab.fluid,
-                               clab.category,
-                               clab.loinc_code,
-                               clab.charttime,
-                               clab.valuenum,
-                               clab.valueuom).all()
+  def _all_patients(self):
+    return session.query(clab.subject_id,
+                         clab.hadm_id,
+                         clab.itemid,
+                         clab.label,
+                         clab.fluid,
+                         clab.category,
+                         clab.loinc_code,
+                         clab.charttime,
+                         clab.valuenum,
+                         clab.valueuom)
+
+  def query(self, subject_id=None, label=None, limit=None):
+    self.query = self._all_patients()
+
+    if subject_id is not None:
+      self.query = self.query.filter(clab.subject_id.in_(subject_id))
+
+    if label is not None:
+      label = "%" + label.lower() + "%"
+      self.query = self.query.filter(func.lower(clab.label).like(label))
+
+    if limit is not None:
+      self.query = self.query.limit(limit)
+
     return self
 
   def export(self):
-    r = []
-    for row in self.query:
-      r.append(row._asdict())
+    result = pd.read_sql(self.query.statement, self.query.session.bind)
+    r = result.to_dict("r")
     return r
 
 
