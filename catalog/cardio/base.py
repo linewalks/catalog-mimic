@@ -63,21 +63,30 @@ class PatientAdministration(CuratedData):
   def __init__(self):
     super(PatientAdministration, self).__init__()
 
-  def query(self):
-    self.query = session.query(cadm.subject_id,
-                               cadm.latest_admittime,
-                               cadm.urgent,
-                               cadm.emergency,
-                               cadm.elective,
-                               cadm.newborn,
-                               cadm.count_of_icustay,
-                               cadm.period_of_icustay).all()
+  def _all_patients(self):
+    return session.query(cadm.subject_id,
+                         cadm.latest_admittime,
+                         cadm.urgent,
+                         cadm.emergency,
+                         cadm.elective,
+                         cadm.newborn,
+                         cadm.count_of_icustay,
+                         cadm.period_of_icustay)
+
+  def query(self, subject_id=None, limit=None):
+    self.query = self._all_patients()
+
+    if subject_id is not None:
+      self.query = self.query.filter(cadm.subject_id.in_(subject_id))
+
+    if limit is not None:
+      self.query = self.query.limit(limit)
+
     return self
 
   def export(self):
-    r = []
-    for row in self.query:
-      r.append(row._asdict())
+    result = pd.read_sql(self.query.statement, self.query.session.bind)
+    r = result.to_dict("r")
     return r
 
 
