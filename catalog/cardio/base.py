@@ -43,10 +43,10 @@ class PatientDemographic(CuratedData):
                                              and_(cdemo.subject_id == age_tbl.c.subject_id,
                                                   cdemo.age == age_tbl.c.age))
 
-    if subject_id is not None:
+    if subject_id:
       self.query = self.query.filter(cdemo.subject_id.in_(subject_id))
 
-    if limit is not None:
+    if limit:
       self.query = self.query.limit(limit)
 
     return self
@@ -63,21 +63,30 @@ class PatientAdministration(CuratedData):
   def __init__(self):
     super(PatientAdministration, self).__init__()
 
-  def query(self):
-    self.query = session.query(cadm.subject_id,
-                               cadm.latest_admittime,
-                               cadm.urgent,
-                               cadm.emergency,
-                               cadm.elective,
-                               cadm.newborn,
-                               cadm.count_of_icustay,
-                               cadm.period_of_icustay).all()
+  def _all_patients(self):
+    return session.query(cadm.subject_id,
+                         cadm.latest_admittime,
+                         cadm.urgent,
+                         cadm.emergency,
+                         cadm.elective,
+                         cadm.newborn,
+                         cadm.count_of_icustay,
+                         cadm.period_of_icustay)
+
+  def query(self, subject_id=None, limit=None):
+    self.query = self._all_patients()
+
+    if subject_id:
+      self.query = self.query.filter(cadm.subject_id.in_(subject_id))
+
+    if limit:
+      self.query = self.query.limit(limit)
+
     return self
 
   def export(self):
-    r = []
-    for row in self.query:
-      r.append(row._asdict())
+    result = pd.read_sql(self.query.statement, self.query.session.bind)
+    r = result.to_dict("r")
     return r
 
 
@@ -87,23 +96,36 @@ class PatientLabEvents(CuratedData):
   def __init__(self):
     super(PatientLabEvents).__init__()
 
-  def query(self):
-    self.query = session.query(clab.subject_id,
-                               clab.hadm_id,
-                               clab.itemid,
-                               clab.label,
-                               clab.fluid,
-                               clab.category,
-                               clab.loinc_code,
-                               clab.charttime,
-                               clab.valuenum,
-                               clab.valueuom).all()
+  def _all_patients(self):
+    return session.query(clab.subject_id,
+                         clab.hadm_id,
+                         clab.itemid,
+                         clab.label,
+                         clab.fluid,
+                         clab.category,
+                         clab.loinc_code,
+                         clab.charttime,
+                         clab.valuenum,
+                         clab.valueuom)
+
+  def query(self, subject_id=None, label=None, limit=None):
+    self.query = self._all_patients()
+
+    if subject_id:
+      self.query = self.query.filter(clab.subject_id.in_(subject_id))
+
+    if label:
+      label = "%" + label.lower() + "%"
+      self.query = self.query.filter(func.lower(clab.label).like(label))
+
+    if limit:
+      self.query = self.query.limit(limit)
+
     return self
 
   def export(self):
-    r = []
-    for row in self.query:
-      r.append(row._asdict())
+    result = pd.read_sql(self.query.statement, self.query.session.bind)
+    r = result.to_dict("r")
     return r
 
 
