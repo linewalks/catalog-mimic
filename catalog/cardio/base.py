@@ -25,37 +25,35 @@ class PatientDemographic(CuratedData):
                          cdemo.religion, cdemo.marital_status, cdemo.ethnicity
                          )
 
-  def query(self, latest=True, all=False, subject_id=None):
-    self.latest = latest
-    self.all = all
-    self.subject_id_list = subject_id
-
-    if self.all:
-      if self.latest:
-        query = self._all_patients().order_by(cdemo.subject_id.asc(), cdemo.age.desc())
+  def query(self, latest=True, all=False, subject_id=None, limit=None):
+    if all:
+      if latest:
+        self.query = self._all_patients().order_by(cdemo.subject_id.asc(), cdemo.age.desc())
       else:
-        query = self._all_patients().order_by(cdemo.subject_id.asc(), cdemo.age.asc())
+        self.query = self._all_patients().order_by(cdemo.subject_id.asc(), cdemo.age.asc())
 
-    if not self.all:
-      if self.latest:
+    if not all:
+      if latest:
         age_tbl = session.query(cdemo.subject_id,
                                 func.max(cdemo.age).label("age")).group_by(cdemo.subject_id).cte("age_tbl")
       else:
         age_tbl = session.query(cdemo.subject_id,
                                 func.min(cdemo.age).label("age")).group_by(cdemo.subject_id).cte("age_tbl")
-      query = self._all_patients().join(age_tbl,
-                                        and_(cdemo.subject_id == age_tbl.c.subject_id,
-                                             cdemo.age == age_tbl.c.age))
+      self.query = self._all_patients().join(age_tbl,
+                                             and_(cdemo.subject_id == age_tbl.c.subject_id,
+                                                  cdemo.age == age_tbl.c.age))
 
-    if self.subject_id_list is not None:
-      query = query.filter(cdemo.subject_id.in_(self.subject_id_list))
+    if subject_id is not None:
+      self.query = self.query.filter(cdemo.subject_id.in_(subject_id))
 
-    self.result = pd.read_sql(query.statement, query.session.bind)
+    if limit is not None:
+      self.query = self.query.limit(limit)
 
     return self
 
   def export(self):
-    r = self.result.to_dict("r")
+    result = pd.read_sql(self.query.statement, self.query.session.bind)
+    r = result.to_dict("r")
     return r
 
 
