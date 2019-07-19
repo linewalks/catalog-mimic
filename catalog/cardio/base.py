@@ -5,8 +5,9 @@ from catalog.cardio.model.cardio_cohort import (CardioAdministration as cadm,
                                                 CardioLabevents as clab,
                                                 CardioPrescription as cpres,
                                                 CardioComorbidity as ccom)
-from catalog.cardio.model.base import Session
+from catalog.cardio import Session
 from sqlalchemy import func, and_, case
+import pandas as pd
 
 session = Session()
 
@@ -17,23 +18,44 @@ class PatientDemographic(CuratedData):
   def __init__(self):
     super(PatientDemographic, self).__init__()
 
-  def query(self):
-    age_tbl = session.query(cdemo.subject_id,
-                            func.min(cdemo.age).label("age")).group_by(cdemo.subject_id).cte("age_tbl")
-    self.query = session.query(cdemo.subject_id,
-                               cdemo.hadm_id, cdemo.dob, cdemo.age, cdemo.gender,
-                               cdemo.insurance, cdemo.language,
-                               cdemo.religion, cdemo.marital_status, cdemo.ethnicity
-                               ).join(age_tbl,
-                                      and_(cdemo.subject_id == age_tbl.c.subject_id,
-                                           cdemo.age == age_tbl.c.age))
+  def _all_patients(self):
+    return session.query(cdemo.subject_id,
+                         cdemo.hadm_id, cdemo.dob, cdemo.age, cdemo.gender,
+                         cdemo.insurance, cdemo.language,
+                         cdemo.religion, cdemo.marital_status, cdemo.ethnicity
+                         )
+
+  def query(self, latest=True, all=False, subject_id=None):
+    self.latest = latest
+    self.all = all
+    self.subject_id_list = subject_id
+
+    if self.all:
+      if self.latest:
+        query = self._all_patients().order_by(cdemo.subject_id.asc(), cdemo.age.desc())
+      else:
+        query = self._all_patients().order_by(cdemo.subject_id.asc(), cdemo.age.asc())
+
+    if not self.all:
+      if self.latest:
+        age_tbl = session.query(cdemo.subject_id,
+                                func.max(cdemo.age).label("age")).group_by(cdemo.subject_id).cte("age_tbl")
+      else:
+        age_tbl = session.query(cdemo.subject_id,
+                                func.min(cdemo.age).label("age")).group_by(cdemo.subject_id).cte("age_tbl")
+      query = self._all_patients().join(age_tbl,
+                                        and_(cdemo.subject_id == age_tbl.c.subject_id,
+                                             cdemo.age == age_tbl.c.age))
+
+    if self.subject_id_list is not None:
+      query = query.filter(cdemo.subject_id.in_(self.subject_id_list))
+
+    self.result = pd.read_sql(query.statement, query.session.bind)
 
     return self
 
   def export(self):
-    r = []
-    for row in self.query:
-      r.append(row._asdict())
+    r = self.result.to_dict("r")
     return r
 
 

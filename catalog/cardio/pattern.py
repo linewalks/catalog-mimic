@@ -1,7 +1,6 @@
 import pandas as pd
 
 from catalog.base import (CuratedData,
-                          engine,  # FIXME: engine과 session 중 하나만 사용하기
                           NoSubjectIdException)
 
 from catalog.cardio.model.cardio_events import CardioEvents as ce
@@ -11,7 +10,7 @@ from catalog.cardio.model.cardio_cohort import (CardioAdministration as cadm,
                                                 CardioProcedures as cproc,
                                                 CardioLabevents as clab,
                                                 CardioPrescription as cpres)
-from catalog.cardio.model.base import Session
+from catalog.cardio import Session
 from sqlalchemy import func, case, and_, or_
 
 
@@ -36,7 +35,7 @@ class EventFlow(CuratedData):
         distinct().\
         join(de, ce.event_id == de.event_id).\
         filter(de.category == "disease")
-    self.result = pd.read_sql(query.statement, engine)
+    self.result = pd.read_sql(query.statement, query.session.bind)
     return self
 
   def preprocess(self):
@@ -72,7 +71,7 @@ class ClinicalTimeline(CuratedData):
         distinct().\
         join(de, ce.event_id == de.event_id).\
         filter(ce.subject_id == self.subject_id)
-    self.result = pd.read_sql(query.statement, engine)
+    self.result = pd.read_sql(query.statement, query.session.bind)
     return self
 
   def _tootlip_tables(self, x, header):
@@ -241,7 +240,7 @@ class AdmissionSankey(Sankey):
         join(de, tmp.c.event_id == de.event_id).\
         filter(de.category == "admit").\
         group_by(tmp.c.subject_id, tmp.c.ts)
-    self.result = pd.read_sql(query.statement, engine)
+    self.result = pd.read_sql(query.statement, query.session.bind)
     return self
 
   def export(self):
@@ -286,7 +285,7 @@ class DiagnosisSankey(Sankey):
         join(de, tmp.c.event_id == de.event_id).\
         filter(and_(*self.condition)).\
         group_by(tmp.c.subject_id, tmp.c.ts)
-    self.result = pd.read_sql(query.statement, engine)
+    self.result = pd.read_sql(query.statement, query.session.bind)
 
     return self
 
@@ -332,7 +331,7 @@ class LabSankey(Sankey):
         join(de, tmp.c.event_id == de.event_id).\
         filter(and_(*self.condition)).\
         group_by(tmp.c.subject_id, tmp.c.ts)
-    self.result = pd.read_sql(query.statement, engine)
+    self.result = pd.read_sql(query.statement, query.session.bind)
     return self
 
   def export(self):
@@ -388,7 +387,7 @@ class PrescriptionSankey(Sankey):
         join(de, tmp.c.event_id == de.event_id).\
         filter(and_(*self.condition)).\
         group_by(tmp.c.subject_id, tmp.c.ts)
-    self.result = pd.read_sql(query.statement, engine)
+    self.result = pd.read_sql(query.statement, query.session.bind)
     return self
 
   def export(self):
@@ -410,7 +409,7 @@ class DemographicByDiagnosisSankey(DiagnosisSankey):
 
     query = session.query(cdemo).filter(cdemo.subject_id.in_(subject_id_list))
 
-    self.result = pd.read_sql(query.statement, engine)
+    self.result = pd.read_sql(query.statement, query.session.bind)
     return self
 
   def export(self):
@@ -434,7 +433,7 @@ class AdmissionByDiagnosisSankey(DiagnosisSankey):
 
     query = session.query(cadm).filter(cadm.subject_id.in_(subject_id_list))
 
-    self.result = pd.read_sql(query.statement, engine)
+    self.result = pd.read_sql(query.statement, query.session.bind)
     return self
 
   def export(self):
@@ -458,7 +457,7 @@ class PrescriptionByDiagnosisSankey(DiagnosisSankey):
 
     query = session.query(cpres).filter(cpres.subject_id.in_(subject_id_list))
 
-    group_prescription = pd.read_sql(query.statement, engine)
+    group_prescription = pd.read_sql(query.statement, query.session.bind)
     group_diag = diagnosis[["subject_id", "to_ts"]]
     self.result = pd.merge(group_prescription,
                            group_diag,
@@ -487,7 +486,7 @@ class LabByDiagnosisSankey(DiagnosisSankey):
 
     query = session.query(clab).filter(clab.subject_id.in_(subject_id_list))
 
-    group_lab = pd.read_sql(query.statement, engine)
+    group_lab = pd.read_sql(query.statement, query.session.bind)
     group_diag = diagnosis[["subject_id", "to_ts"]]
     self.result = pd.merge(group_lab,
                            group_diag,
@@ -516,7 +515,7 @@ class ProcedureByDiagnosisSankey(DiagnosisSankey):
 
     query = session.query(cproc).filter(cproc.subject_id.in_(subject_id_list))
 
-    group_lab = pd.read_sql(query.statement, engine)
+    group_lab = pd.read_sql(query.statement, query.session.bind)
     group_diag = diagnosis[["subject_id", "to_ts"]]
     self.result = pd.merge(group_lab,
                            group_diag,
