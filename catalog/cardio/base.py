@@ -43,10 +43,10 @@ class PatientDemographic(CuratedData):
                                              and_(cdemo.subject_id == age_tbl.c.subject_id,
                                                   cdemo.age == age_tbl.c.age))
 
-    if subject_id is not None:
+    if subject_id:
       self.query = self.query.filter(cdemo.subject_id.in_(subject_id))
 
-    if limit is not None:
+    if limit:
       self.query = self.query.limit(limit)
 
     return self
@@ -76,10 +76,10 @@ class PatientAdministration(CuratedData):
   def query(self, subject_id=None, limit=None):
     self.query = self._all_patients()
 
-    if subject_id is not None:
+    if subject_id:
       self.query = self.query.filter(cadm.subject_id.in_(subject_id))
 
-    if limit is not None:
+    if limit:
       self.query = self.query.limit(limit)
 
     return self
@@ -111,14 +111,14 @@ class PatientLabEvents(CuratedData):
   def query(self, subject_id=None, label=None, limit=None):
     self.query = self._all_patients()
 
-    if subject_id is not None:
+    if subject_id:
       self.query = self.query.filter(clab.subject_id.in_(subject_id))
 
-    if label is not None:
+    if label:
       label = "%" + label.lower() + "%"
       self.query = self.query.filter(func.lower(clab.label).like(label))
 
-    if limit is not None:
+    if limit:
       self.query = self.query.limit(limit)
 
     return self
