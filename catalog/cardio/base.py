@@ -25,7 +25,7 @@ class PatientDemographic(CuratedData):
                          cdemo.religion, cdemo.marital_status, cdemo.ethnicity
                          )
 
-  def query(self, latest=True, all=False, subject_id=None, limit=None):
+  def query(self, subjectId=None, all=False, latest=True, page=None, length=None):
     if all:
       if latest:
         self.query = self._all_patients().order_by(cdemo.subject_id.asc(), cdemo.age.desc())
@@ -43,11 +43,13 @@ class PatientDemographic(CuratedData):
                                              and_(cdemo.subject_id == age_tbl.c.subject_id,
                                                   cdemo.age == age_tbl.c.age))
 
-    if subject_id:
-      self.query = self.query.filter(cdemo.subject_id.in_(subject_id))
+    if subjectId:
+      self.query = self.query.filter(cdemo.subject_id.in_(subjectId))
 
-    if limit:
-      self.query = self.query.limit(limit)
+    if page:
+      page = (int(page) - 1)
+      length = int(length)
+      self.query = self.query.slice(page * length, (page * length) + length)
 
     return self
 
@@ -73,14 +75,16 @@ class PatientAdministration(CuratedData):
                          cadm.count_of_icustay,
                          cadm.period_of_icustay)
 
-  def query(self, subject_id=None, limit=None):
+  def query(self, subjectId=None, page=None, length=None):
     self.query = self._all_patients()
 
-    if subject_id:
-      self.query = self.query.filter(cadm.subject_id.in_(subject_id))
+    if subjectId:
+      self.query = self.query.filter(cadm.subject_id.in_(subjectId))
 
-    if limit:
-      self.query = self.query.limit(limit)
+    if page:
+      page = (int(page) - 1)
+      length = int(length)
+      self.query = self.query.slice(page * length, (page * length) + length)
 
     return self
 
@@ -108,18 +112,20 @@ class PatientLabEvents(CuratedData):
                          clab.valuenum,
                          clab.valueuom)
 
-  def query(self, subject_id=None, label=None, limit=None):
+  def query(self, subjectId=None, label=None, page=None, length=None):
     self.query = self._all_patients()
 
-    if subject_id:
-      self.query = self.query.filter(clab.subject_id.in_(subject_id))
+    if subjectId:
+      self.query = self.query.filter(clab.subject_id.in_(subjectId))
 
     if label:
       label = "%" + label.lower() + "%"
       self.query = self.query.filter(func.lower(clab.label).like(label))
 
-    if limit:
-      self.query = self.query.limit(limit)
+    if page:
+      page = (int(page) - 1)
+      length = int(length)
+      self.query = self.query.slice(page * length, (page * length) + length)
 
     return self
 
@@ -135,26 +141,37 @@ class PatientPrescription(CuratedData):
   def __init__(self):
     super(PatientPrescription).__init__()
 
-  def query(self):
-    self.query = session.query(cpres.row_id,
-                               cpres.subject_id,
-                               cpres.hadm_id,
-                               cpres.icustay_id,
-                               cpres.latest_date,
-                               cpres.drug,
-                               cpres.drug_group,
-                               cpres.prod_strength,
-                               cpres.dose_val_rx,
-                               cpres.dose_unit_rx,
-                               cpres.form_val_disp,
-                               cpres.form_unit_disp,
-                               cpres.prescription_days).all()
+  def _all_patients(self):
+    return session.query(cpres.row_id,
+                         cpres.subject_id,
+                         cpres.hadm_id,
+                         cpres.icustay_id,
+                         cpres.latest_date,
+                         cpres.drug,
+                         cpres.drug_group,
+                         cpres.prod_strength,
+                         cpres.dose_val_rx,
+                         cpres.dose_unit_rx,
+                         cpres.form_val_disp,
+                         cpres.form_unit_disp,
+                         cpres.prescription_days)
+
+  def query(self, subjectId=None, page=None, length=None):
+    self.query = self._all_patients()
+
+    if subjectId:
+      self.query = self.query.filter(cpres.subject_id.in_(subjectId))
+
+    if page:
+      page = (int(page) - 1)
+      length = int(length)
+      self.query = self.query.slice(page * length, (page * length) + length)
+
     return self
 
   def export(self):
-    r = []
-    for row in self.query:
-      r.append(row._asdict())
+    result = pd.read_sql(self.query.statement, self.query.session.bind)
+    r = result.to_dict("r")
     return r
 
 
@@ -164,7 +181,7 @@ class PatientProcedure(CuratedData):
   def __init__(self):
     super(PatientProcedure).__init__()
 
-  def query(self):
+  def _all_patients(self):
     procedure_mask = case(
         [
             (cproc.icd9_code.in_(("3610", "3611", "3612", "3613", "3614", "3615",
@@ -182,68 +199,85 @@ class PatientProcedure(CuratedData):
         ],
         else_="OTHERS").label("sub_category")
 
-    self.query = session.query(cproc.subject_id,
-                               cproc.hadm_id,
-                               cproc.charttime,
-                               cproc.procedures,
-                               procedure_mask,
-                               cproc.icd9_code
-                               ).all()
+    return session.query(cproc.subject_id,
+                         cproc.hadm_id,
+                         cproc.charttime,
+                         cproc.procedures,
+                         procedure_mask,
+                         cproc.icd9_code
+                         )
+
+  def query(self, subjectId=None, page=None, length=None):
+    self.query = self._all_patients()
+
+    if subjectId:
+      self.query = self.query.filter(cproc.subject_id.in_(subjectId))
+
+    if page:
+      page = (int(page) - 1)
+      length = int(length)
+      self.query = self.query.slice(page * length, (page * length) + length)
+
     return self
 
   def export(self):
-    r = []
-    for row in self.query:
-      r.append(row._asdict())
+    result = pd.read_sql(self.query.statement, self.query.session.bind)
+    r = result.to_dict("r")
     return r
 
 
 class PatientComorbidity(CuratedData):
-  """의료행위 카탈로그 클래스"""
+  """합병증 카탈로그 클래스"""
 
   def __init__(self):
     super(PatientComorbidity).__init__()
 
-  def query(self):
-    self.query = session.query(ccom.subject_id,
-                               ccom.hadm_id,
-                               ccom.admittime,
-                               ccom.congestive_heart_failure,
-                               ccom.cardiac_arrhythmias,
-                               ccom.valvular_disease,
-                               ccom.pulmonary_circulation,
-                               ccom.peripheral_vascular,
-                               ccom.hypertension,
-                               ccom.paralysis,
-                               ccom.other_neurological,
-                               ccom.chronic_pulmonary,
-                               ccom.hyperlipidemia,
-                               ccom.diabetes_uncomplicated,
-                               ccom.diabetes_complicated,
-                               ccom.hypothyroidism,
-                               ccom.renal_failure,
-                               ccom.liver_disease,
-                               ccom.peptic_ulcer,
-                               ccom.aids,
-                               ccom.lymphoma,
-                               ccom.metastatic_cancer,
-                               ccom.solid_tumor,
-                               ccom.rheumatoid_arthritis,
-                               ccom.coagulopathy,
-                               ccom.obesity,
-                               ccom.weight_loss,
-                               ccom.fluid_electrolyte,
-                               ccom.blood_loss_anemia,
-                               ccom.deficiency_anemias,
-                               ccom.alcohol_abuse,
-                               ccom.drug_abuse,
-                               ccom.psychoses,
-                               ccom.depression
-                               ).all()
+  def _all_patients(self):
+    return session.query(ccom.subject_id,
+                         ccom.hadm_id,
+                         ccom.admittime,
+                         ccom.congestive_heart_failure,
+                         ccom.cardiac_arrhythmias,
+                         ccom.valvular_disease,
+                         ccom.pulmonary_circulation,
+                         ccom.peripheral_vascular,
+                         ccom.hypertension,
+                         ccom.paralysis,
+                         ccom.other_neurological,
+                         ccom.chronic_pulmonary,
+                         ccom.hyperlipidemia,
+                         ccom.diabetes_uncomplicated,
+                         ccom.diabetes_complicated,
+                         ccom.hypothyroidism,
+                         ccom.renal_failure,
+                         ccom.liver_disease,
+                         ccom.peptic_ulcer,
+                         ccom.aids,
+                         ccom.lymphoma,
+                         ccom.metastatic_cancer,
+                         ccom.solid_tumor,
+                         ccom.rheumatoid_arthritis,
+                         ccom.coagulopathy,
+                         ccom.obesity,
+                         ccom.weight_loss,
+                         ccom.fluid_electrolyte,
+                         ccom.blood_loss_anemia,
+                         ccom.deficiency_anemias,
+                         ccom.alcohol_abuse,
+                         ccom.drug_abuse,
+                         ccom.psychoses,
+                         ccom.depression
+                         )
+
+  def query(self, subjectId=None):
+    self.query = self._all_patients()
+
+    if subjectId:
+      self.query = self.query.filter(ccom.subject_id.in_(subjectId))
+
     return self
 
   def export(self):
-    r = []
-    for row in self.query:
-      r.append(row._asdict())
+    result = pd.read_sql(self.query.statement, self.query.session.bind)
+    r = result.to_dict("r")
     return r
