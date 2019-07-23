@@ -329,66 +329,53 @@ INSERT INTO analysis.cardio_labevents(
      , valuenum
      , valueuom
 )
-select t1.subject_id
-       , t1.hadm_id
-       , t1.itemid
-       , t1.label
-       , t1.fluid
-       , t1.category
-       , t1.loinc_code
-       , t1.charttime
-       , t1.valuenum
-       , t1.valueuom
-from (
-     select le.subject_id
-         , le.hadm_id
-         , le.itemid
-         , dl.label
-         , dl.fluid
-         , dl.category
-         , dl.loinc_code
-         , le.charttime
-         , le.valuenum
-         , le.valueuom
-    from labevents le
-    inner join d_labitems dl
-    on le.itemid = dl.itemid
-    where (
-        le.itemid in (50912)  -- 크레아티닌(creatinine)
-        or le.itemid in (50905, 50906)  -- LDL-콜레스테롤(LDL-cholesterol)
-        or le.itemid in (50852)  -- 당화혈색소(HbA1c/ % Hemoglobin A1c)
-        or le.itemid in (50809, 50931)  -- 공복혈당(fasting plasma glucose)
-        or le.itemid in (50889)  -- C-반응성 단백질(C-reactive protein)
-        or le.itemid in (50811, 51222)  -- 헤모글로빈(hemoglobin)
-        or le.itemid in (50907)  -- 총콜레스테롤(total cholesterol)
-        or le.itemid in (50945)  -- 호모시스테인(Homocysteine)
-        or le.itemid in (51006)  -- 혈액 요소 질소(blood urea nitrogen)
-        or le.itemid in (51000)  -- 중성지방(triglyceride)
-        or le.itemid in (51105)  -- 요산(uric acid)
-        or le.itemid in (50904)  -- HDL-콜레스테롤(HDL-cholesterol)
-        or le.itemid in (51265)  -- 혈소판(platelet)
-        or le.itemid in (51288)  -- 적혈구침강속도(Erythrocyte sedimentation rate)
-        or le.itemid in (51214)  -- 피브리노겐(fibrinogen)
-        or le.itemid in (51301)  -- 백혈구(white blood cell)
-        or le.itemid in (50963)  -- B형 나트륨 이뇨펩타이드(B-type Natriuretic Peptide)
-        or le.itemid in (51002, 51003)  -- 트로포닌(Troponin)
-        or le.itemid in (50908)  -- 크레아티닌키나제-MB(Creatine Kinase - Muscle Brain)
-        or le.itemid in (50862)  -- 알부민(albumin)
-        or le.itemid in (50821)  -- 동맥 산소분압(arterial pO2)
-        or le.itemid in (50818)  -- 이산화탄소분압(pCO2)
-        or le.itemid in (50820)  -- 동맥혈의 산도(arterial PH)
-        or le.itemid in (50910)  -- 크레아틴키나제(CK)
-        or le.itemid in (51237)  -- 혈액응고검사(PT (INR)/aPTT) 
-        or le.itemid in (50885)  -- 빌리루빈(bilirubin)
-        or le.itemid in (51144)  -- 대상핵세포(band cells)
-        or le.itemid in (50863)  -- 알칼리 인산염(alkaline phosphatase)
+select le.subject_id
+       , le.hadm_id
+       , le.itemid
+       , dl.label
+       , dl.fluid
+       , dl.category
+       , dl.loinc_code
+       , le.charttime
+       , le.valuenum
+       , le.valueuom
+from labevents le
+inner join d_labitems dl
+on le.itemid = dl.itemid
+where le.subject_id in (select subject_id from analysis.cardio_cohort)
+and (
+     le.itemid in (50912)  -- 크레아티닌(creatinine)
+     or le.itemid in (50905, 50906)  -- LDL-콜레스테롤(LDL-cholesterol)
+     or le.itemid in (50852)  -- 당화혈색소(HbA1c/ % Hemoglobin A1c)
+     or le.itemid in (50809, 50931)  -- 공복혈당(fasting plasma glucose)
+     or le.itemid in (50889)  -- C-반응성 단백질(C-reactive protein)
+     or le.itemid in (50811, 51222)  -- 헤모글로빈(hemoglobin)
+     or le.itemid in (50907)  -- 총콜레스테롤(total cholesterol)
+     or le.itemid in (50945)  -- 호모시스테인(Homocysteine)
+     or le.itemid in (51006)  -- 혈액 요소 질소(blood urea nitrogen)
+     or le.itemid in (51000)  -- 중성지방(triglyceride)
+     or le.itemid in (51105)  -- 요산(uric acid)
+     or le.itemid in (50904)  -- HDL-콜레스테롤(HDL-cholesterol)
+     or le.itemid in (51265)  -- 혈소판(platelet)
+     or le.itemid in (51288)  -- 적혈구침강속도(Erythrocyte sedimentation rate)
+     or le.itemid in (51214)  -- 피브리노겐(fibrinogen)
+     or le.itemid in (51301)  -- 백혈구(white blood cell)
+     or le.itemid in (50963)  -- B형 나트륨 이뇨펩타이드(B-type Natriuretic Peptide)
+     or le.itemid in (51002, 51003)  -- 트로포닌(Troponin)
+     or le.itemid in (50908)  -- 크레아티닌키나제-MB(Creatine Kinase - Muscle Brain)
+     or le.itemid in (50862)  -- 알부민(albumin)
+     or le.itemid in (50821)  -- 동맥 산소분압(arterial pO2)
+     or le.itemid in (50818)  -- 이산화탄소분압(pCO2)
+     or le.itemid in (50820)  -- 동맥혈의 산도(arterial PH)
+     or le.itemid in (50910)  -- 크레아틴키나제(CK)
+     or le.itemid in (51237)  -- 혈액응고검사(PT (INR)/aPTT) 
+     or le.itemid in (50885)  -- 빌리루빈(bilirubin)
+     or le.itemid in (51144)  -- 대상핵세포(band cells)
+     or le.itemid in (50863)  -- 알칼리 인산염(alkaline phosphatase)
     )
-    and le.hadm_id is not null
-) t1
-join analysis.cardio_cohort
-using (subject_id)
+and le.hadm_id is not null
 ;
--- 6441439 rows inserted
+-- 3583920 rows inserted
 
 
 /* 주요 투약 이력 추출 */
