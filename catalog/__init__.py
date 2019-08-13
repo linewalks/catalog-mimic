@@ -1,42 +1,9 @@
-import importlib
-import catalog
-from catalog import base
+__DB_URI__ = None
 
 
-def _iter_all_modules(package, prefix=""):
-  """
-  Iterates over the names of all modules that can be found in the given
-  package, recursively.
-  Example:
-      _iter_all_modules(_pytest) ->
-          ["_pytest.assertion.newinterpret",
-           "_pytest.capture",
-           "_pytest.core",
-           ...
-          ]
-  """
-  import os
-  import pkgutil
-  if type(package) is not str:
-    path, prefix = package.__path__[0], package.__name__ + "."
+def initDB(db_uri):
+  global __DB_URI__
+  if __DB_URI__ is None:
+    __DB_URI__ = db_uri
   else:
-    path = package
-  for _, name, is_package in pkgutil.iter_modules([path]):
-    if is_package:
-      for m in _iter_all_modules(os.path.join(path, name), prefix=name + "."):
-        yield prefix + m
-    else:
-      yield prefix + name
-
-
-def get_subclasses(cls):
-  for subclass in cls.__subclasses__():
-    yield from get_subclasses(subclass)
-    yield subclass
-
-
-for name in _iter_all_modules(catalog):
-  importlib.import_module(name, __package__)
-
-all_data_classes = {
-    cls.__name__: cls for cls in get_subclasses(base.CuratedData)}
+    raise RuntimeError("Database URI has already been set.")

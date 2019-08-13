@@ -1,15 +1,7 @@
 import pandas as pd
-from catalog.config import DB_CFG
-from sqlalchemy import create_engine
-import os
 from pathlib import Path
 import json
 import datetime
-
-if DB_CFG["source_mimic"]:
-  engine = create_engine(DB_CFG["source_mimic"])
-elif os.environ["source_mimic"]:
-  engine = create_engine(os.environ["source_mimic"])
 
 
 class CuratedData(object):

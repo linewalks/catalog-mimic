@@ -1,4 +1,4 @@
-from catalog.cardio.model.base import Base
+from catalog.cardio import Base
 from sqlalchemy import Column, String, Integer, TIMESTAMP, ForeignKey
 from sqlalchemy.orm import relationship
 from catalog.cardio.model.d_events import DEvents
