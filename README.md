@@ -28,7 +28,7 @@ Clean code를 위해 git hook에 PEP8 검사 루틴을 추가합니다.
 $ vi .git/hooks/pre-commit
     #!/bin/sh 
     flake8 catalog tests
-    gittyleaks --find-anything
+    cd docs; make html;cd ..
 $ chmod +x .git/hooks/pre-commit
 ```
 
