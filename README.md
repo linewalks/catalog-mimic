@@ -23,6 +23,7 @@ $ cp catalog/config.default.py catalog/config.py
 
 * Git hook 설정    
 Clean code를 위해 git hook에 PEP8 검사 루틴을 추가합니다.
+문서를 빌드합니다.
 
 ```
 $ vi .git/hooks/pre-commit
