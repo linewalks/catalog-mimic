@@ -7,7 +7,7 @@ with io.open("README.md", "rt", encoding="utf8") as f:
 
 setup(
     name="catalog-mimic",
-    version="0.1",
+    version="0.1.1",
     url="https://github.com/linewalks/catalog-mimic",
     license="GNU AFFERO GENERAL PUBLIC LICENSE",
     maintainer="Linewalks Tech Group",
